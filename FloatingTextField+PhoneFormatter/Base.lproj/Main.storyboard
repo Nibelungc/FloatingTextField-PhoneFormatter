@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9hq-Tc-CDC" customClass="JVFloatLabeledTextField">
+                                <rect key="frame" x="16" y="269" width="288" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kSD-ac-H6k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="phoneNumberField" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="phonePrefix" value="+7 "/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkn-8O-smA">
+                                <rect key="frame" x="16" y="518" width="288" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TmK-PT-IxW"/>
+                                </constraints>
+                                <state key="normal" title="Get phone number"/>
+                                <connections>
+                                    <action selector="getPhoneNumberAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RCD-qt-kuf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prefix: ex.+7 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlE-rf-5Df">
+                                <rect key="frame" x="16" y="28" width="284" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="LrD-DV-ck7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGh-Bu-aKn">
+                                <rect key="frame" x="12" y="489" width="292" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VQj-Ey-nBr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nKl-DU-eap">
+                                <rect key="frame" x="16" y="57" width="288" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iTY-Sf-acP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m8b-NK-EpH">
+                                <rect key="frame" x="16" y="124" width="288" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="E9P-SF-kaP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="twitter"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJX-rB-bxN">
+                                <rect key="frame" x="16" y="170" width="288" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1Uq-rR-fnr"/>
+                                </constraints>
+                                <state key="normal" title="Apply format"/>
+                                <connections>
+                                    <action selector="applyFormatAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mYX-2p-Hhl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pattern: ex. (###) ###-##-##" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boo-eA-fnv">
+                                <rect key="frame" x="10" y="95" width="300" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="yiV-2p-0nM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kGh-Bu-aKn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="2wq-NK-q1c"/>
+                            <constraint firstItem="MJX-rB-bxN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="EWa-ge-MHH"/>
+                            <constraint firstItem="gkn-8O-smA" firstAttribute="top" secondItem="kGh-Bu-aKn" secondAttribute="bottom" constant="8" id="JW5-DO-tza"/>
+                            <constraint firstItem="boo-eA-fnv" firstAttribute="top" secondItem="nKl-DU-eap" secondAttribute="bottom" constant="8" id="Krb-6b-3Pj"/>
+                            <constraint firstItem="MJX-rB-bxN" firstAttribute="top" secondItem="m8b-NK-EpH" secondAttribute="bottom" constant="16" id="MQO-Dg-aTI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DlE-rf-5Df" secondAttribute="trailing" constant="4" id="MTD-Gr-t7D"/>
+                            <constraint firstItem="gkn-8O-smA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Qd9-K4-dgv"/>
+                            <constraint firstItem="gkn-8O-smA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="QjG-Zc-d4l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m8b-NK-EpH" secondAttribute="trailing" id="UwP-Gd-pE1"/>
+                            <constraint firstItem="m8b-NK-EpH" firstAttribute="top" secondItem="boo-eA-fnv" secondAttribute="bottom" constant="8" id="Vf8-wE-UYE"/>
+                            <constraint firstItem="MJX-rB-bxN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Xct-Wm-GTg"/>
+                            <constraint firstItem="kGh-Bu-aKn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Yfl-KV-pQd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="boo-eA-fnv" secondAttribute="trailing" constant="-6" id="ZRW-dD-qNN"/>
+                            <constraint firstItem="9hq-Tc-CDC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="a45-B0-Bbn"/>
+                            <constraint firstItem="DlE-rf-5Df" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dtv-J0-AJm"/>
+                            <constraint firstItem="nKl-DU-eap" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dzU-II-I3E"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gkn-8O-smA" secondAttribute="bottom" constant="20" id="geY-ID-Djc"/>
+                            <constraint firstItem="9hq-Tc-CDC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hUC-uG-b9X"/>
+                            <constraint firstItem="boo-eA-fnv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="lLZ-N5-11t"/>
+                            <constraint firstItem="nKl-DU-eap" firstAttribute="top" secondItem="DlE-rf-5Df" secondAttribute="bottom" constant="8" id="m7A-Cg-ztz"/>
+                            <constraint firstItem="m8b-NK-EpH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mID-ha-BKw"/>
+                            <constraint firstItem="9hq-Tc-CDC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="s7h-9J-HcQ"/>
+                            <constraint firstItem="DlE-rf-5Df" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="vT5-zl-BzB"/>
+                            <constraint firstItem="nKl-DU-eap" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="z67-aq-Cro"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="patternTextField" destination="m8b-NK-EpH" id="537-Ge-ePk"/>
+                        <outlet property="phoneField" destination="9hq-Tc-CDC" id="rhp-zd-hAg"/>
+                        <outlet property="prefixTextField" destination="nKl-DU-eap" id="cod-HU-wem"/>
+                        <outlet property="unformattedPhoneNumberLabel" destination="kGh-Bu-aKn" id="ERH-rg-teo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="435" y="353"/>
+        </scene>
+    </scenes>
+</document>
