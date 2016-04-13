@@ -345,6 +345,7 @@ static CGFloat const kFloatingLabelHideAnimationDuration = 0.3f;
     } else {
         _formatter = nil;
         logicDelegate = nil;
+        [super setDelegate: nil];
     }
 }
 

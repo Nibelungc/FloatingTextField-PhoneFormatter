@@ -13,13 +13,12 @@
 		08E4D0BA1BE8A3840020E904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E4D0B81BE8A3840020E904 /* Main.storyboard */; };
 		08E4D0BC1BE8A3840020E904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E4D0BB1BE8A3840020E904 /* Assets.xcassets */; };
 		08E4D0BF1BE8A3840020E904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E4D0BD1BE8A3840020E904 /* LaunchScreen.storyboard */; };
-		08E4D0DA1BE8A3A20020E904 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0C91BE8A3A20020E904 /* JVFloatLabeledTextField.m */; settings = {ASSET_TAGS = (); }; };
-		08E4D0DB1BE8A3A20020E904 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0CB1BE8A3A20020E904 /* JVFloatLabeledTextView.m */; settings = {ASSET_TAGS = (); }; };
-		08E4D0DC1BE8A3A20020E904 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0CD1BE8A3A20020E904 /* NSString+TextDirectionality.m */; settings = {ASSET_TAGS = (); }; };
-		08E4D0DD1BE8A3A20020E904 /* SHSFlagAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0D01BE8A3A20020E904 /* SHSFlagAccessoryView.m */; settings = {ASSET_TAGS = (); }; };
-		08E4D0DE1BE8A3A20020E904 /* SHSPhoneLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0D31BE8A3A20020E904 /* SHSPhoneLogic.m */; settings = {ASSET_TAGS = (); }; };
-		08E4D0DF1BE8A3A20020E904 /* SHSPhoneNumberFormatter+UserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0D51BE8A3A20020E904 /* SHSPhoneNumberFormatter+UserConfig.m */; settings = {ASSET_TAGS = (); }; };
-		08E4D0E01BE8A3A20020E904 /* SHSPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0D71BE8A3A20020E904 /* SHSPhoneNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		08E4D0DA1BE8A3A20020E904 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0C91BE8A3A20020E904 /* JVFloatLabeledTextField.m */; };
+		08E4D0DC1BE8A3A20020E904 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0CD1BE8A3A20020E904 /* NSString+TextDirectionality.m */; };
+		08E4D0DD1BE8A3A20020E904 /* SHSFlagAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0D01BE8A3A20020E904 /* SHSFlagAccessoryView.m */; };
+		08E4D0DE1BE8A3A20020E904 /* SHSPhoneLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0D31BE8A3A20020E904 /* SHSPhoneLogic.m */; };
+		08E4D0DF1BE8A3A20020E904 /* SHSPhoneNumberFormatter+UserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0D51BE8A3A20020E904 /* SHSPhoneNumberFormatter+UserConfig.m */; };
+		08E4D0E01BE8A3A20020E904 /* SHSPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E4D0D71BE8A3A20020E904 /* SHSPhoneNumberFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +34,6 @@
 		08E4D0C01BE8A3840020E904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08E4D0C81BE8A3A20020E904 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
 		08E4D0C91BE8A3A20020E904 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
-		08E4D0CA1BE8A3A20020E904 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
-		08E4D0CB1BE8A3A20020E904 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
 		08E4D0CC1BE8A3A20020E904 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
 		08E4D0CD1BE8A3A20020E904 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 		08E4D0CF1BE8A3A20020E904 /* SHSFlagAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSFlagAccessoryView.h; sourceTree = "<group>"; };
@@ -116,8 +113,6 @@
 			children = (
 				08E4D0C81BE8A3A20020E904 /* JVFloatLabeledTextField.h */,
 				08E4D0C91BE8A3A20020E904 /* JVFloatLabeledTextField.m */,
-				08E4D0CA1BE8A3A20020E904 /* JVFloatLabeledTextView.h */,
-				08E4D0CB1BE8A3A20020E904 /* JVFloatLabeledTextView.m */,
 				08E4D0CC1BE8A3A20020E904 /* NSString+TextDirectionality.h */,
 				08E4D0CD1BE8A3A20020E904 /* NSString+TextDirectionality.m */,
 			);
@@ -218,7 +213,6 @@
 				08E4D0DC1BE8A3A20020E904 /* NSString+TextDirectionality.m in Sources */,
 				08E4D0B41BE8A3840020E904 /* AppDelegate.m in Sources */,
 				08E4D0B11BE8A3840020E904 /* main.m in Sources */,
-				08E4D0DB1BE8A3A20020E904 /* JVFloatLabeledTextView.m in Sources */,
 				08E4D0DD1BE8A3A20020E904 /* SHSFlagAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +362,7 @@
 				08E4D0C51BE8A3840020E904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
